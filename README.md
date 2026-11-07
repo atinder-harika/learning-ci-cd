@@ -1,17 +1,17 @@
-# 🚀 CI/CD Pipeline Learning Journey
+# CI/CD learning notes
 
-> Hands-on exploration of Continuous Integration and Continuous Deployment using GitHub Actions.
+> My hands-on notes from learning CI/CD with GitHub Actions. This is a learning repo, not production work.
 
-[![Frontend CI](https://github.com/atinder-harika/ci-cd-pipeline/actions/workflows/frontend-ci.yml/badge.svg)](https://github.com/atinder-harika/ci-cd-pipeline/actions)
-[![Artifact Demo CI](https://github.com/atinder-harika/ci-cd-pipeline/actions/workflows/artifacts-ci.yml/badge.svg)](https://github.com/atinder-harika/ci-cd-pipeline/actions)
-[![Backend CI](https://github.com/atinder-harika/ci-cd-pipeline/actions/workflows/backend-ci.yml/badge.svg)](https://github.com/atinder-harika/ci-cd-pipeline/actions)
-[![Full Stack CI](https://github.com/atinder-harika/ci-cd-pipeline/actions/workflows/full-stack-ci.yml/badge.svg)](https://github.com/atinder-harika/ci-cd-pipeline/actions)
+[![Frontend CI](https://github.com/atinder-harika/learning-ci-cd/actions/workflows/frontend-ci.yml/badge.svg)](https://github.com/atinder-harika/learning-ci-cd/actions)
+[![Artifact Demo CI](https://github.com/atinder-harika/learning-ci-cd/actions/workflows/artifacts-ci.yml/badge.svg)](https://github.com/atinder-harika/learning-ci-cd/actions)
+[![Backend CI](https://github.com/atinder-harika/learning-ci-cd/actions/workflows/backend-ci.yml/badge.svg)](https://github.com/atinder-harika/learning-ci-cd/actions)
+[![Full Stack CI](https://github.com/atinder-harika/learning-ci-cd/actions/workflows/full-stack-ci.yml/badge.svg)](https://github.com/atinder-harika/learning-ci-cd/actions)
 
 ---
 
 ## 📖 About
 
-A practical workshop for mastering CI/CD concepts through real-world implementation. Each lesson builds production-ready pipelines for full-stack applications.
+A practice project for learning CI/CD. Each lesson adds a working GitHub Actions pipeline to a small React and Spring Boot app.
 
 **What I Learned:**
 - Pipeline as Code (YAML workflows)
@@ -26,7 +26,7 @@ A practical workshop for mastering CI/CD concepts through real-world implementat
 ## 🏗️ Project Structure
 
 ```
-ci-cd-pipeline/
+learning-ci-cd/
 ├── .github/workflows/
 │   ├── frontend-ci.yml        # React + Vite + Vitest (5 matrix jobs)
 │   ├── backend-ci.yml         # Spring Boot + Maven + JUnit
